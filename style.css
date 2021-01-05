@@ -1,0 +1,652 @@
+.hero {
+    height: 326px;
+    background: linear-gradient(90deg, #BA2636, #BA2636, rgba(186, 38, 54, 0.76) 64.53%, rgba(186, 38, 54, 0.46667) 76.53%, rgba(186, 38, 54, 0.251911) 91.53%, rgba(186, 38, 54, 0) 100%), url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-li a{
+    color: #ffad3e !important;
+}
+
+.logo{
+    background: none;
+    border: 4px #ffad3e solid;
+    padding: 2px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffad3e;
+    /* font-style: italic; */
+}
+
+.logo span{
+    color: #367FD3;
+}
+.navbar {
+    padding: 0 100px;
+    font-style: normal;
+    font-size: 13px;
+    color: #000000;
+}
+
+.btn-log {
+    padding: 5px;
+    color: #367FD3 !important;
+}
+
+.signup-btn {
+    font-weight: bold !important;
+    color: #ffffff !important;
+    background: #ffad3e !important;
+    /* border: 3px #367FD3 solid !important; */
+}
+
+nav .navbar-nav a {
+    font-size: 16px;
+    /* color: #ffad3e !important; */
+    font-weight: bold !important;
+    margin: 0 0 0 15px;
+}
+
+.word img {
+    margin-left: 45px;
+    width: 35%;
+    height: 35%;
+}
+
+.word p {
+    /* margin-left: 45px; */
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    /* line-height: 35px; */
+    color: #FFFFFF;
+}
+
+.word-p {
+    margin-left: 45px;
+    width: 35%;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.btn-join {
+    /* text-decoration: none; */
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 45px;
+    width: 20%;
+    padding: 8px;
+    background: #ffad3e;
+    border-radius: 5px;
+}
+
+.search-panel {
+    opacity: .4;
+    width: 100%;
+    top: 50%;
+    height: 60px;
+    background: #000000;
+}
+
+.search {
+    left: 50px;
+    width: 90%;
+    top: 50%;
+    /* height: 60px; */
+    background: none;
+}
+
+.search-b {
+    outline: none;
+    height: 45px;
+}
+
+.my-select {
+    font-weight: lighter;
+    width: 100%;
+    background: #FFFFFF;
+    color: #888484;
+    border: 0 none;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.search-btn {
+    width: 80%;
+}
+
+.title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 52.73px;
+    text-align: center;
+}
+
+.fa-bookmark {
+    color: #ffad3e;
+    font-size: 20px;
+}
+
+.comp-icon img {
+    border: 1px #c4c4c4 solid;
+    height: 70px;
+    width: 70px;
+    /* background: #BA2636; */
+    border-radius: 50%;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.time {
+    margin-left: 10px;
+    font-weight: lighter;
+    font-size: smaller
+}
+
+.job-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.view {
+    text-align: center;
+    margin: 20px;
+    color: #ffad3e;
+}
+
+.stand {
+    background: #F3F3F7;
+}
+
+.title-2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 41.02px;
+}
+
+.stand-icon {
+    margin: 20px 0 0 90px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    background: #ffad3e;
+}
+
+.stand-icon i {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 10px 0 0 12px;
+}
+
+.stand-p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.myd {
+    display: flex;
+}
+
+.stand-2 {
+    padding: 5% 0 5% 0;
+    background: #FFFFFF;
+}
+
+.top-company img {
+    width: 50%;
+    height: 60px;
+}
+
+.top-company {
+    /* margin: 10px; */
+    padding: 10px 0 0 40px;
+    width: 50%;
+    height: 90px;
+}
+
+.load {
+    background: #FFFFFF;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 1px #c4c4c4 solid;
+    width: 15px;
+    height: 15px;
+}
+
+
+/* Footer */
+footer{
+    background: #1E2428;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer-header{
+    color: #5a5a5a;
+    font-size: 15px;
+    border-bottom: 1px #363A3D solid;
+}
+
+.font-white a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.font-green a{
+    text-decoration: none;
+    color: #2DA9B8;
+}
+
+
+.footer-ads{
+    margin: 40px 32%;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.pay{
+    margin-right: 15px;
+    border-radius: 10px;
+    height: 100px;
+    width: 160px;
+    background: #181D20;
+}
+
+
+.pay p{
+    text-align: center;
+}
+
+
+.pay-img{
+    margin: 0px 0 50px 20px;
+}
+
+
+.pay-img img{
+    height: 40px;
+    width: 110px;
+}
+
+
+.follow{
+    /* color: #ffffff  ; */
+    margin-left: 15px;
+    border-radius: 10px;
+    height: 100px;
+    width: 160px;
+    background: #181D20;
+}
+
+footer a:hover{
+    color: #91d7e1;
+}
+
+
+.follow i{
+    height: 25px;
+    width: 25px;
+}
+.follow p{
+    text-align: center;
+}
+
+.insta{
+    color: #ffffff;
+    width: 33px;
+    background:#D95B9D;
+    border-radius: 50%;
+}
+
+.facebook{
+    color: #ffffff;
+    margin-right: 10px;
+    width: 33px;
+    background: #34679A;
+    border-radius: 50%;
+}
+
+.twitter{
+    color: #ffffff;
+    margin-right: 10px;
+    width: 33px;
+    background: #1DA1F2;
+    border-radius: 50%;
+}
+
+.footer-seo{
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-seo a{
+    text-decoration: none;
+    color: #2DA9B8;
+}
+
+.footer-copyright{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.copy{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.user, .user2{
+    margin: 0 0 0 135px;
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: 2px #c4c4c4 solid;
+}
+
+
+.user img{
+    padding: 5px 4px 5px 10px;
+    height: 90px;
+    width: 90px;
+}
+
+.user2 img{
+    padding: 15px 0px 0px 20px;
+    height: 70px;
+    width: 70px;
+}
+
+
+.btn-join a{
+    color: #ffffff;
+}
+
+.sign-info a{
+    color: #ffffff;
+}
+
+.sign-info h6{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.sign-info p{
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.sign-p{
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.sign-title{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.dash-search{
+    opacity: 1 !important;
+    background: #BA2636;
+}
+
+.text-dash1{
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.job-bunner{
+    font-weight: 200;
+    font-size: 20px;
+    color: #ffffff;
+    background: #BA2636;
+}
+
+.a-job{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+.a-job i{
+    margin: 0 0 0 54%;
+    color: #c4c4c4;
+    font-size: 18px;
+}
+
+.a-job i:hover{
+    color: #ffad3e;
+    cursor: pointer;
+}
+
+.a-job .i{
+    margin: 0 0 0 63%;
+}
+
+.myjob a{
+ color: black;
+}
+
+.myjob a:hover{
+    color: #BA2636;
+    font-size: 17px;
+}
+
+/* Style Checkbox */
+
+.contai {
+    font-weight: lighter;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .contai input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ffad3e;
+  }
+
+
+/* On mouse-over, add a grey background color */
+.contai:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .contai input:checked ~ .checkmark {
+    background-color: #BA2636;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .contai input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .contai .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+
+  /* Style Check Box */
+
+
+  .line-br{
+      border-bottom: 1px #c4c4c4 solid;
+      /* padding-left: 20px; */
+  }
+
+  .career img{
+      width: 100%;
+  height: 120px;
+  }
+
+  .fa-trash:hover{
+      color: red !important;
+      font-size: 25px;
+  }
+
+  .small-title{
+      padding:  0 20px 0 0px;
+      font-weight: bold;
+      color: black;
+  }
+
+  .job-sam{
+      line-height: 15px;
+  }
+
+  .report{
+      font-size: 15px;
+      color: red;
+      border-radius: 50%;
+      /* background: red; */
+      height: 25px;
+      width: 25px;
+  }
+
+
+  .scam{
+      margin: 30px 0 0 43%;
+  }
+
+
+  .myProfile{
+      margin: 20px 0 0 25px;
+      height: 110px;
+      width: 110px;
+  }
+
+  .myProfile img{
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+}
+
+.application-btn{
+    background: none;
+    text-align: center;
+    color: #BA2636;
+    border: 2px #ffad3e solid;
+}
+
+.application-btn:hover{
+    background: #BA2636;
+    text-align: center;
+    color: #ffffff;
+    border: 2px #ffad3e solid;
+}
+
+.application a{
+color: #BA2636;
+}
+
+.application i{
+    padding: 0 0 0 60px;
+}
+
+.post-job input{
+  border: 1px #ffad3e solid;
+}
+
+.post-btn i{
+   margin: 0 0 0 5px;
+}
+
+.post-2 a{
+    color: #ffffff;
+}
+
+.sign-emplo{
+    margin: 0 0 0 200px;
+}
+
+.nav-icon{
+    color: #ffffff !important;
+    text-align: center;
+    border-radius: 50%;
+    background: #ffad3e;
+    width: 40px;
+}
+
+.color5{
+    color: #F3F3F7;
+}
+
+
+
+.back-btn{
+    background: #000000 !important;
+}
+
+
+.login-hero{
+    background:  url(./images/nairobi.jpeg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    height: 400px;
+
+}
+
+.login-btn{
+    /* background: #000000 !; */
+}
+
+/* #panel {
+    display: none;
+  } */
